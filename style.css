@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text h1 {
+    font-size: 38px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.text p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.8;
+    color: white;
+}
+
+.banner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px;
+    display: flex;
+}
+
+.text {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-container h2 {
+    color: #A0A0A0;
+    font-weight: normal;
+}
+
+.text-container p {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #636363;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    width: fit-content;
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+a:hover {
+    background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
